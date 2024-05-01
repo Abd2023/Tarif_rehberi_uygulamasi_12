@@ -1,0 +1,77 @@
+2023/04/13-16:19:51.815 6134 Reusing MANIFEST C:\Users\Abdullah Amin\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2023/04/13-16:19:51.827 6134 Recovering log #2978
+2023/04/13-16:19:51.921 6134 Level-0 table #2981: started
+2023/04/13-16:19:52.041 6134 Level-0 table #2981: 603223 bytes OK
+2023/04/13-16:19:52.048 6134 Recovering log #2980
+2023/04/13-16:19:52.072 6134 Reusing old log C:\Users\Abdullah Amin\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Local Storage\leveldb/002980.log 
+2023/04/13-16:19:52.098 6134 Delete type=0 #2978
+2023/04/13-16:21:05.468 7c4 Level-0 table #2983: started
+2023/04/13-16:21:05.482 7c4 Level-0 table #2983: 40811 bytes OK
+2023/04/13-16:21:05.487 7c4 Delete type=0 #2980
+2023/04/13-16:21:05.489 7c4 Compacting 4@0 + 3@1 files
+2023/04/13-16:21:05.625 7c4 Generated table #2984@0: 11347 keys, 2284180 bytes
+2023/04/13-16:21:05.669 7c4 Generated table #2985@0: 4064 keys, 2107366 bytes
+2023/04/13-16:21:05.703 7c4 Generated table #2986@0: 10476 keys, 1604358 bytes
+2023/04/13-16:21:05.703 7c4 Compacted 4@0 + 3@1 files => 5995904 bytes
+2023/04/13-16:21:05.704 7c4 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/04/13-16:21:05.705 7c4 Delete type=2 #2973
+2023/04/13-16:21:05.705 7c4 Delete type=2 #2974
+2023/04/13-16:21:05.705 7c4 Delete type=2 #2975
+2023/04/13-16:21:05.705 7c4 Delete type=2 #2977
+2023/04/13-16:21:05.705 7c4 Delete type=2 #2979
+2023/04/13-16:21:05.706 7c4 Delete type=2 #2981
+2023/04/13-16:21:05.706 7c4 Delete type=2 #2983
+2023/04/13-16:21:57.756 7c4 Level-0 table #2988: started
+2023/04/13-16:21:57.777 7c4 Level-0 table #2988: 255842 bytes OK
+2023/04/13-16:21:57.780 7c4 Delete type=0 #2982
+2023/04/13-16:29:46.961 2b44 Level-0 table #2990: started
+2023/04/13-16:29:46.969 2b44 Level-0 table #2990: 46573 bytes OK
+2023/04/13-16:29:46.972 2b44 Delete type=0 #2987
+2023/04/13-16:55:18.249 6134 Level-0 table #2992: started
+2023/04/13-16:55:18.298 6134 Level-0 table #2992: 28043 bytes OK
+2023/04/13-16:55:18.303 6134 Delete type=0 #2989
+2023/04/13-17:14:39.433 31f0 Level-0 table #2994: started
+2023/04/13-17:14:39.451 31f0 Level-0 table #2994: 26764 bytes OK
+2023/04/13-17:14:39.453 31f0 Delete type=0 #2991
+2023/04/13-17:14:39.454 31f0 Compacting 4@0 + 3@1 files
+2023/04/13-17:14:39.500 31f0 Generated table #2995@0: 11426 keys, 2296015 bytes
+2023/04/13-17:14:39.544 31f0 Generated table #2996@0: 4065 keys, 2105442 bytes
+2023/04/13-17:14:39.576 31f0 Generated table #2997@0: 10518 keys, 1601369 bytes
+2023/04/13-17:14:39.576 31f0 Compacted 4@0 + 3@1 files => 6002826 bytes
+2023/04/13-17:14:39.577 31f0 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/04/13-17:14:39.578 31f0 Delete type=2 #2984
+2023/04/13-17:14:39.578 31f0 Delete type=2 #2985
+2023/04/13-17:14:39.578 31f0 Delete type=2 #2986
+2023/04/13-17:14:39.578 31f0 Delete type=2 #2988
+2023/04/13-17:14:39.578 31f0 Delete type=2 #2990
+2023/04/13-17:14:39.579 31f0 Delete type=2 #2992
+2023/04/13-17:14:39.579 31f0 Delete type=2 #2994
+2023/04/13-17:14:58.709 31f0 Level-0 table #2999: started
+2023/04/13-17:14:58.722 31f0 Level-0 table #2999: 52949 bytes OK
+2023/04/13-17:14:58.725 31f0 Delete type=0 #2993
+2023/04/13-17:15:08.541 31f0 Level-0 table #3001: started
+2023/04/13-17:15:08.553 31f0 Level-0 table #3001: 152519 bytes OK
+2023/04/13-17:15:08.556 31f0 Delete type=0 #2998
+2023/04/13-17:15:43.676 31f0 Level-0 table #3003: started
+2023/04/13-17:15:43.681 31f0 Level-0 table #3003: 22226 bytes OK
+2023/04/13-17:15:43.682 31f0 Delete type=0 #3000
+2023/04/13-17:16:45.328 31f0 Level-0 table #3005: started
+2023/04/13-17:16:45.337 31f0 Level-0 table #3005: 39719 bytes OK
+2023/04/13-17:16:45.339 31f0 Delete type=0 #3002
+2023/04/13-17:16:45.340 31f0 Compacting 4@0 + 2@1 files
+2023/04/13-17:16:45.386 31f0 Generated table #3006@0: 11426 keys, 2296015 bytes
+2023/04/13-17:16:45.440 31f0 Generated table #3007@0: 4065 keys, 2105545 bytes
+2023/04/13-17:16:45.441 31f0 Compacted 4@0 + 2@1 files => 4401560 bytes
+2023/04/13-17:16:45.441 31f0 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/04/13-17:16:45.443 31f0 Delete type=2 #2995
+2023/04/13-17:16:45.443 31f0 Delete type=2 #2996
+2023/04/13-17:16:45.443 31f0 Delete type=2 #2999
+2023/04/13-17:16:45.443 31f0 Delete type=2 #3001
+2023/04/13-17:16:45.443 31f0 Delete type=2 #3003
+2023/04/13-17:16:45.443 31f0 Delete type=2 #3005
+2023/04/13-17:18:51.652 31f0 Level-0 table #3009: started
+2023/04/13-17:18:51.656 31f0 Level-0 table #3009: 30385 bytes OK
+2023/04/13-17:18:51.657 31f0 Delete type=0 #3004
+2023/04/13-18:04:49.839 1ea4 Level-0 table #3011: started
+2023/04/13-18:04:49.859 1ea4 Level-0 table #3011: 767523 bytes OK
+2023/04/13-18:04:49.861 1ea4 Delete type=0 #3008
