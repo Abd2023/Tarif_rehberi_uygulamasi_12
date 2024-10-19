@@ -1,0 +1,69 @@
+﻿<Window x:Class="Tarif_rehberi_uygulamasi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Tarif_rehberi_uygulamasi"
+        Title="Recipe Guide" Height="500" Width="900">
+
+    <Window.Resources>
+        <local:EmptyStringToVisibilityConverter x:Key="EmptyStringToVisibilityConverter"/>
+    </Window.Resources>
+
+    <Grid>
+        <!-- Search TextBox for Recipe Name -->
+        <Grid>
+            <TextBox x:Name="SearchByNameTextBox" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Margin="0,10,10,0" 
+                     KeyUp="SearchByNameTextBox_KeyUp"/>
+            <TextBlock Text="Search by Recipe Name" Foreground="Gray" 
+                       Visibility="{Binding ElementName=SearchByNameTextBox, Path=Text.Length, Converter={StaticResource EmptyStringToVisibilityConverter}}" 
+                       HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,210,0"/>
+        </Grid>
+
+        <!-- Category Filter -->
+        <TextBlock Text="Filter by Category:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,40,0,0"/>
+        <ComboBox x:Name="CategoryComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="254,34,0,0" 
+                  SelectionChanged="CategoryComboBox_SelectionChanged">
+            <ComboBoxItem Content="All" />
+            <ComboBoxItem Content="Ana Yemek" />
+            <ComboBoxItem Content="Tatli" />
+            <ComboBoxItem Content="Salata" />
+            <ComboBoxItem Content="Corba" />
+            <ComboBoxItem Content="Atistirmalik" />
+            
+        </ComboBox>
+
+        <!-- Max Duration Filter -->
+        <TextBlock Text="Max Duration (min):" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,70,0,0"/>
+        <TextBox x:Name="MaxDurationTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="254,68,0,0" 
+                 KeyUp="MaxDurationTextBox_KeyUp"/>
+        <TextBlock Text="Enter max duration" Foreground="Gray"
+                   Visibility="{Binding ElementName=MaxDurationTextBox, Path=Text.Length, Converter={StaticResource EmptyStringToVisibilityConverter}}" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="264,70,0,0"/>
+
+        <!-- Min Ingredients Count -->
+        <TextBlock Text="Min Ingredients Count:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,100,0,0"/>
+        <TextBox x:Name="MinIngredientCountTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="254,100,0,0"/>
+
+ 
+        
+        <!-- Search TextBox for Ingredients -->
+        <TextBlock Text="Search by Ingredients (comma-separated):" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,160,0,0"/>
+        <TextBox x:Name="IngredientSearchTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="254,158,0,0" 
+                 KeyUp="IngredientSearchTextBox_KeyUp"/>
+        <TextBlock Text="Enter ingredients" Foreground="Gray"
+                   Visibility="{Binding ElementName=IngredientSearchTextBox, Path=Text.Length, Converter={StaticResource EmptyStringToVisibilityConverter}}" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="144,176,0,0"/>
+
+
+
+
+        <!-- DataGrid to show recipes -->
+        <DataGrid x:Name="RecipeDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Left" Margin="10,200,10,10" VerticalAlignment="Top" 
+                  Height="250" Width="760" SelectionChanged="RecipeDataGrid_SelectionChanged"/>
+
+        <!-- Buttons for CRUD actions -->
+        <Button x:Name="AddRecipeButton" Content="Add Recipe" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="120" Margin="10, 0, 0, 10" Click="AddRecipe_Click"/>
+        <Button x:Name="UpdateRecipeButton" Content="Update Recipe" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="120" Margin="140, 0, 0, 10" Click="UpdateRecipe_Click"/>
+        <Button x:Name="DeleteRecipeButton" Content="Delete Recipe" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="120" Margin="270, 0, 0, 10" Click="DeleteRecipe_Click"/>
+        <Button x:Name="ViewDetailsButton" Content="View Details" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="120" Margin="400, 0, 0, 10" Click="ViewDetails_Click" IsEnabled="False"/>
+    </Grid>
+</Window>
